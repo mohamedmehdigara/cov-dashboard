@@ -1,9 +1,11 @@
 import "./App.css";
 import Select from "react-select";
 import React, { useState, useEffect } from "react";
-import Card from "./SummaryCard";
+import Card from "./components/SummaryCard";
 import { Line } from "react-chartjs-2";
 import Chart from "chart.js/auto";
+import FAQs from "./components/FAQs"; // Import the FAQs component
+
 
 function App() {
   const locationList = [
@@ -158,6 +160,8 @@ function App() {
             value={summaryData.cumulative_avaccine}
           />
         </div>
+        <FAQs />
+
       </div>
     </div>
   );
