@@ -5,6 +5,8 @@ import Card from "./components/SummaryCard";
 import { Line } from "react-chartjs-2";
 import Chart from "chart.js/auto";
 import FAQs from "./components/FAQs"; // Import the FAQs component
+import ResourceLinks from "./components/ResourceLinks"; // Import the ResourceLinks component
+
 
 
 function App() {
@@ -160,6 +162,8 @@ function App() {
             value={summaryData.cumulative_avaccine}
           />
         </div>
+        <ResourceLinks />
+
         <FAQs />
 
       </div>
