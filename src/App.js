@@ -6,7 +6,7 @@ import { Line } from "react-chartjs-2";
 import Chart from "chart.js/auto";
 import FAQs from "./components/FAQs"; // Import the FAQs component
 import ResourceLinks from "./components/ResourceLinks"; // Import the ResourceLinks component
-
+import PreventionTips from "./components/PreventionTips";
 
 
 function App() {
@@ -165,6 +165,7 @@ function App() {
         <ResourceLinks />
 
         <FAQs />
+        <PreventionTips/>
 
       </div>
     </div>
