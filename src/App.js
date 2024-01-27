@@ -7,6 +7,8 @@ import Chart from "chart.js/auto";
 import FAQs from "./components/FAQs"; // Import the FAQs component
 import ResourceLinks from "./components/ResourceLinks"; // Import the ResourceLinks component
 import PreventionTips from "./components/PreventionTips";
+import SymptomsChecker from "./components/SymptomsChecker"; // Import the SymptomsChecker component
+
 
 
 function App() {
@@ -166,7 +168,7 @@ function App() {
 
         <FAQs />
         <PreventionTips/>
-
+        <SymptomsChecker/>
       </div>
     </div>
   );
